@@ -67,7 +67,7 @@ int main(int argc, const char *argv[])
                  "  --no-contrast                 Don't attempt to correct contrast and exposure differences\n"
                  "  --no-transform                Don't attempt to correct image position alignment\n"
                  "  --align-only                  Only align the input image stack and exit\n"
-                 "  --align-keep-size             Keep original image size by not cropping alignment borders\n";
+                 "  --align-keep-size             Keep original image size by not cropping alignment borders\n"
                  "  --no-align                    Skips the alignment completely, overrides all other alignment options\n";
     std::cerr << "\n";
     std::cerr << "Image merge options:\n"

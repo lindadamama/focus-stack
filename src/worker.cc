@@ -294,7 +294,7 @@ void Worker::worker(int thread_idx)
                           seconds_passed(), thread_idx, taskidx, seconds_passed() - start);
 
 #ifdef USE_MALLINFO
-        struct mallinfo mem = mallinfo();
+        struct mallinfo2 mem = mallinfo2();
         m_logger->verbose("%6.3f           Memory use: %0.3f MB.\n", seconds_passed(), mem.uordblks / 1e6);
 #endif
       }

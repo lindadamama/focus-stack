@@ -1,5 +1,5 @@
 #include "task_saveimg.hh"
-#include <opencv2/core/core.hpp>
+#include <opencv2/core.hpp>
 #include <opencv2/imgcodecs.hpp>
 
 using namespace focusstack;

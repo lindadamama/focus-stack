@@ -7,7 +7,7 @@
 #include <unordered_set>
 #include <memory>
 #include <functional>
-#include <opencv2/core/core.hpp>
+#include <opencv2/core.hpp>
 
 namespace focusstack {
 

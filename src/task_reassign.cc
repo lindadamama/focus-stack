@@ -1,5 +1,5 @@
 #include "task_reassign.hh"
-#include <opencv2/core/core.hpp>
+#include <opencv2/core.hpp>
 #include <opencv2/imgcodecs.hpp>
 
 #define REASSIGN_MAX_BATCH 32

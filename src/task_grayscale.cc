@@ -1,5 +1,5 @@
 #include "task_grayscale.hh"
-#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/imgproc.hpp>
 #include <cstdio>
 
 using namespace focusstack;

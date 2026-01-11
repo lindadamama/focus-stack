@@ -3,8 +3,8 @@
 // for GPU-based computation.
 
 #pragma once
-#include <opencv2/core/core.hpp>
-#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/core.hpp>
+#include <opencv2/imgproc.hpp>
 #include <opencv2/core/ocl.hpp>
 #include <mutex>
 #include "task_wavelet_opencl_kernels.cl"

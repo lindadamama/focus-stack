@@ -121,7 +121,7 @@ jobs:
         run: |
           call "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\Build\vcvars64.bat"
           cd focus-stack
-          nmake -f Makefile.windows OPENCV_INC=C:\vcpkg\installed\x64-windows\include OPENCV_LIB=C:\vcpkg\installed\x64-windows\lib\opencv*.lib OPENCV_DLL=C:\vcpkg\installed\x64-windows\bin\*.dll
+          nmake -f Makefile.windows OPENCV_INC=C:\vcpkg\installed\x64-windows\include\opencv4 OPENCV_LIB=C:\vcpkg\installed\x64-windows\lib\opencv*.lib OPENCV_DLL=C:\vcpkg\installed\x64-windows\bin\*.dll
           nmake -f Makefile.windows package
     
       - name: Upload

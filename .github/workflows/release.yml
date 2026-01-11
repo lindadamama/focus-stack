@@ -138,7 +138,7 @@ jobs:
 
   release:
     needs: [linux_binary, mac_binary, windows_binary]
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - name: Check out code from GitHub
         uses: actions/checkout@v4
